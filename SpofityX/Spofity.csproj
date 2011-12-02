@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0389993A-1575-4ACC-9AC8-176DC784B42C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Spofity</RootNamespace>
+    <AssemblyName>Spofity</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>bin\Debug\Spofity.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationBuildTasks" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="PresentationFramework.Classic" />
+    <Reference Include="PresentationFramework.Luna" />
+    <Reference Include="PresentationFramework.Royale" />
+    <Reference Include="Skybound.Gecko">
+      <HintPath>..\SpofityRuntime\bin\Debug\Skybound.Gecko.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="tessnet2_32, Version=2.0.4.0, Culture=neutral, PublicKeyToken=1550524b5ba07e29, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Downloads\bin\Release32\tessnet2_32.dll</HintPath>
+    </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CDNotice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CDNotice.designer.cs">
+      <DependentUpon>CDNotice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Section.xaml.cs">
+      <DependentUpon>Section.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Copy of Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Copy of Form1.designer.cs">
+      <DependentUpon>Copy of Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="app.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="app.designer.cs">
+      <DependentUpon>app.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SLabel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SLabel.Designer.cs">
+      <DependentUpon>SLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucPage.Designer.cs">
+      <DependentUpon>ucPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBitmap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBitmap.Designer.cs">
+      <DependentUpon>frmBitmap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCheckup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckup.Designer.cs">
+      <DependentUpon>frmCheckup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClient.Designer.cs">
+      <DependentUpon>frmClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="page.Designer.cs">
+      <DependentUpon>page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pane.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pane.designer.cs">
+      <DependentUpon>pane.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="section.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="section.Designer.cs">
+      <DependentUpon>section.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpotiBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="spotifyPanel.Designer.cs">
+      <DependentUpon>spotifyPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="spotiImage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="spotiImage.Designer.cs">
+      <DependentUpon>spotiImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="track.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="track.Designer.cs">
+      <DependentUpon>track.cs</DependentUpon>
+    </Compile>
+    <Compile Include="trackEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trackEntry.Designer.cs">
+      <DependentUpon>trackEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucPge.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucPge.Designer.cs">
+      <DependentUpon>ucPge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucSection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucSection.Designer.cs">
+      <DependentUpon>ucSection.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CDNotice.resx">
+      <DependentUpon>CDNotice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components.resx">
+      <DependentUpon>Components.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Copy of Form1.resx">
+      <DependentUpon>Copy of Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="app.resx">
+      <DependentUpon>app.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SLabel.resx">
+      <DependentUpon>SLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucPage.resx">
+      <DependentUpon>ucPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBitmap.resx">
+      <DependentUpon>frmBitmap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckup.resx">
+      <DependentUpon>frmCheckup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClient.resx">
+      <DependentUpon>frmClient.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page.resx">
+      <DependentUpon>page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pane.resx">
+      <DependentUpon>pane.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="section.resx">
+      <DependentUpon>section.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="spotiEntry.resx">
+      <DependentUpon>spotiEntry.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="spotifyButton.resx">
+      <DependentUpon>spotifyButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="spotifyPanel.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>spotifyPanel1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="spotiImage.resx">
+      <DependentUpon>spotiImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="track.resx">
+      <DependentUpon>track.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trackEntry.resx">
+      <DependentUpon>trackEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucPge.resx">
+      <DependentUpon>ucPge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucSection.resx">
+      <DependentUpon>ucSection.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Installer Package\installer.nsl" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Spofity.cs" />
+    <Compile Include="spotiEntry.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="spotiEntry.designer.cs">
+      <DependentUpon>spotiEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="spotifyButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="spotifyButton.designer.cs">
+      <DependentUpon>spotifyButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="spotifyPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cdnotis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cord.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playsel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ascendia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttondown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttondownx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttonx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\section.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Style.txt" />
+    <None Include="Resources\DocumentStyle.txt" />
+    <None Include="Resources\drop.png" />
+    <None Include="Resources\place.png" />
+    <None Include="Resources\place1.png" />
+    <None Include="Resources\place2.png" />
+    <None Include="Resources\place3.png" />
+    <Content Include="sites.txt" />
+    <Content Include="style.xml" />
+    <Content Include="tessnet2_32.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Controls\Section.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

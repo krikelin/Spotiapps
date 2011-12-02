@@ -1,0 +1,12 @@
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\SpofityX\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\SpofityX\obj\Debug\Spofity.CDNotice.resources
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\SpofityX\obj\Debug\Spofity.Form1.resources
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\SpofityX\obj\Debug\Spofity.pane.resources
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\SpofityX\obj\Debug\SpofityX.Properties.Resources.resources
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\SpofityX\obj\Debug\Spofity.spotiEntry.resources
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\SpofityX\obj\Debug\Spofity.spotifyButton.resources
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\SpofityX\obj\Debug\SpofityX.spotifyPanel.resources
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\SpofityX\obj\Debug\SpofityX.csproj.GenerateResource.Cache
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\SpofityX\obj\Debug\Interop.WMPLib.dll
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\SpofityX\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\SpofityX\obj\Debug\SpofityX.csproj.ResolveComReference.cache

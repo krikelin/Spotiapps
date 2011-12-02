@@ -1,0 +1,13 @@
+This software is provided "as-is" without no gurantiess. The files and the code is propierty of Alexander Forselius.
+
+The application contains the GPL Library Tesseract and it's bindings for C#. This belongs to it's author.
+Project homepage: http://code.google.com/p/tesseract-ocr/
+
+THIS PROGRAM IS DELIVERED 'AS-IS' AND THE AUTHOR CANNOT HOLD LIABLE FOR ANY DAMAGE THIS PROGRAM
+CAUSES ON THIRD PARTY OR PROPERTY THERE OF. YOU SHOULD NOT RUN THE APPLICATION IN A MANNER WHERE
+A TECHNICAL FAILURE COULD LEAD TO IRREVERSIBLE DAMAGES TO COMPUTERS, ENVIRONMENT, HUMANS, OR A FAIULRE
+CAUSE SIGNIFICANT CATASTROPHE. USE ON YOUR OWN RISK
+
+The program contains image data from the spotify interface. We only use them at a manner where it points 
+to spotify. The images is propierty of Spotify and we believe this is fair use. The images is not used
+for any other purpose than spotify-related code.

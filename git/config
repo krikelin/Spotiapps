@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	hideDotFiles = dotGitOnly
+[remote "SpotiApps"]
+	url = Krakelin
+	fetch = +refs/heads/*:refs/remotes/SpotiApps/*
+[gui]
+	wmstate = normal
+	geometry = 928x427+-12+39 226 192

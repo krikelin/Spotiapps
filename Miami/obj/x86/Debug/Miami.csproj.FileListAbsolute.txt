@@ -1,0 +1,22 @@
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Miami\bin\Debug\Miami.pdb
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Miami\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Miami\obj\x86\Debug\Miami.Properties.Resources.resources
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Miami\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Miami\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Miami\obj\x86\Debug\Miami.pdb
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Miami\bin\Debug\Miami.dll.config
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Miami\bin\Debug\Miami.dll
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Miami\bin\Debug\Spofity.dll
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Miami\bin\Debug\AxInterop.WMPLib.dll
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Miami\bin\Debug\tessnet2_32.dll
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Miami\bin\Debug\Interop.WMPLib.dll
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Miami\bin\Debug\Spofity.pdb
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Miami\bin\Debug\Spofity.xml
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Miami\obj\x86\Debug\Miami.Home.resources
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Miami\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Miami\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Miami\obj\x86\Debug\Miami.dll
+C:\Users\Alexander\AppData\Local\Hewlett-Packard Company\SpofityRuntime\1.0.0.0\Plugins\Miami.dll.config
+C:\Users\Alexander\AppData\Local\Hewlett-Packard Company\SpofityRuntime\1.0.0.0\Plugins\Miami.dll
+C:\Users\Alexander\AppData\Local\Hewlett-Packard Company\SpofityRuntime\1.0.0.0\Plugins\Miami.pdb
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Miami\obj\x86\Debug\Miami.Browse.resources

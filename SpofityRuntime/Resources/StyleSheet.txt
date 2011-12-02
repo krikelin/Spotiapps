@@ -1,0 +1,12 @@
+body
+{
+background-color:#484848;
+color:#AAAAAA;
+text-shadow:2px 2px #000000;
+font-size:8px;
+}
+img
+{
+-moz-box-shadow: 1px 1px 1px #000000;
+border: 1px solid #000000;
+}

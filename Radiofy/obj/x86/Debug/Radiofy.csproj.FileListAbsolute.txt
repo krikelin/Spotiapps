@@ -1,0 +1,7 @@
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Radiofy\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Radiofy\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Radiofy\obj\x86\Debug\Radiofy.csproj.ResolveComReference.cache
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Radiofy\obj\x86\Debug\Radiofy.Properties.Resources.resources
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Radiofy\obj\x86\Debug\Radiofy.Form2.resources
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Radiofy\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Radiofy\obj\x86\Debug\GenerateResource.write.1.tlog

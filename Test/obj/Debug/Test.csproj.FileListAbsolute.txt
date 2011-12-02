@@ -1,0 +1,46 @@
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\bin\Debug\Test.dll
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\bin\Debug\Test.pdb
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\bin\Debug\Spofity.exe
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\bin\Debug\tessnet2_32.dll
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\bin\Debug\Interop.WMPLib.dll
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\bin\Debug\Spofity.pdb
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rebecca\AppData\Roaming\Spofity\Spofity\1.0.0.0\Test.dll
+C:\Users\Rebecca\AppData\Roaming\Spofity\Spofity\1.0.0.0\Test.pdb
+C:\Users\Rebecca\AppData\Local\Hewlett-Packard Company\SpofityX\1.0.0.0\Test.dll
+C:\Users\Rebecca\AppData\Local\Hewlett-Packard Company\SpofityX\1.0.0.0\Test.pdb
+C:\Users\Rebecca\AppData\Local\Hewlett-Packard Company\SpofityX\1.0.0.0\Plugins\Test.dll
+C:\Users\Rebecca\AppData\Local\Hewlett-Packard Company\SpofityX\1.0.0.0\Plugins\Test.pdb
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Rebecca\AppData\Local\Hewlett-Packard Company\SpofityRuntime\1.0.0.0\Plugins\SpotiApp.pdb
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\SpotiApp.pdb
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\SpotiApp.Properties.Resources.resources
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\SpotiApp.frmTest.resources
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\SpotiApp.Home.resources
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\SpotiApp.Playlists.resources
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\SpotiApp.ucSection.resources
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\SpotiApp.UserControl1.resources
+C:\Users\Rebecca\AppData\Local\Hewlett-Packard Company\SpofityRuntime\1.0.0.0\Plugins\SpotiApp.dll
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\SpotiApp.dll
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\UserControl2.baml
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\UserControl2.g.cs
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\SpotiApp_MarkupCompile.cache
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\SpotiApp.g.resources
+C:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\SpotiApp.PlaylistEntry.resources
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\ResolveAssemblyReference.cache
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\UserControl2.baml
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\UserControl2.g.cs
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\SpotiApp_MarkupCompile.cache
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\SpotiApp.g.resources
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\SpotiApp.frmTest.resources
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\SpotiApp.Home.resources
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\SpotiApp.PlaylistEntry.resources
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\SpotiApp.Playlists.resources
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\SpotiApp.Properties.Resources.resources
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\SpotiApp.ucSection.resources
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\SpotiApp.UserControl1.resources
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Users\Rebecca\Documents\Visual Studio 2008\Projects\SpofityX\Test\obj\Debug\SpotiApp.pdb

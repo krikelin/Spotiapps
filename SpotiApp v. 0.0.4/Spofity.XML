@@ -1,0 +1,364 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Spofity</name>
+    </assembly>
+    <members>
+        <member name="T:Spofity.spotiEntry">
+            <summary>
+            This class represents a list item that can be used to sort entities in a Spotify view
+            
+            </summary>
+        </member>
+        <member name="F:Spofity.spotiEntry.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Spofity.spotiEntry.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Spofity.spotiEntry.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Spofity.ucSection.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Spofity.ucSection.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Spofity.ucSection.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Spofity.CDNotice.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Spofity.CDNotice.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Spofity.CDNotice.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Spofity.frmClient.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Spofity.frmClient.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Spofity.frmClient.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Spofity.Form2.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Spofity.Form2.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Spofity.Form2.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Spofity.pane.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Spofity.pane.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Spofity.pane.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Spofity.frmBitmap.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Spofity.frmBitmap.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Spofity.frmBitmap.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Spofity.Form1">
+            <summary>
+            A GUI extension for Spotify must always inherit from this class. 
+            </summary>
+        </member>
+        <member name="M:Spofity.Form1.AddTextBox(System.Windows.Forms.UserControl,System.String,System.Drawing.Rectangle)">
+            <summary>
+            Adds a textbox in the view
+            </summary>
+            <param name="B">The pane to add to</param>
+            <param name="Text">Text content</param>
+            <param name="Bounds">The control bounds</param>
+            <returns>TextBox</returns>
+        </member>
+        <member name="M:Spofity.Form1.AddText(System.Windows.Forms.UserControl,System.String,System.Int32,System.Drawing.Color,System.Drawing.Point)">
+            <summary>
+            Add a label to the view and return the new label as a Label object
+            </summary>
+            <param name="B">The target pane</param>
+            <param name="text">the text of the pane</param>
+            <param name="size">the size of the text</param>
+            <param name="Colour">The colour</param>
+            <param name="Location">The location of the text</param>
+            <returns>Label</returns>
+        </member>
+        <member name="M:Spofity.Form1.AddSection(System.Windows.Forms.UserControl,System.String,System.Drawing.Rectangle)">
+            <summary>
+            Adds a section to the Spotify View, for viewing and managing content, like those on the artist view
+            </summary>
+            <param name="B">The UserControl of the current view page</param>
+            <param name="text">The etxt</param>
+            <param name="Location">a Point for the target location</param>
+            <returns>the Section </returns>
+        </member>
+        <member name="M:Spofity.Form1.AddImage(System.Windows.Forms.UserControl,System.Drawing.Image,System.Drawing.Rectangle)">
+            <summary>
+            Adds a cover image, for usage with a playlist or a album, like those in the artist view.
+            </summary>
+            <param name="B">UserControl of the target view</param>
+            <param name="Source">The URL/Path to the image file</param>
+            <param name="Location">The Point of the target Location</param>
+            <returns>Cover</returns>
+        </member>
+        <member name="M:Spofity.Form1.AddButton(System.Windows.Forms.UserControl,System.String,System.Drawing.Rectangle,System.EventHandler)">
+            <summary>
+            Adds a Button that shares a Spotify theme
+            </summary>
+            <param name="B">The UserControl of the target view</param>
+            <param name="Text">The text of the button</param>
+            <param name="Bounds">The Rectangle bounds</param>
+            <param name="Click">A reference to a EventHandler handling the click on the button</param>
+            <returns>Returns the new button</returns>
+        </member>
+        <member name="M:Spofity.Form1.SetView(Spofity.pane)">
+            <summary>
+            Set the current view view (Depredicted)
+            </summary>
+            <remarks>Depredicted</remarks>
+            <param name="view"></param>
+        </member>
+        <member name="M:Spofity.Form1.OpenSpotifyLink(System.String)">
+            <summary>
+            This function will open the target URL in the Spotify, and automatically hide the spotiApp view
+            until the user returns to the associated playlist.
+            </summary>
+            <param name="URI">The Spotify URI</param>
+        </member>
+        <member name="M:Spofity.Form1.ClearFeed(System.String)">
+            <summary>
+            Clears the content tagget with the feed string from the view.
+            </summary>
+            <param name="feed">The feed tag value</param>
+        </member>
+        <member name="M:Spofity.Form1.AddSection(System.String,System.Windows.Forms.UserControl)">
+            <summary>
+            Adds a new view to the Spotify view and returns the UserControl associated with the view.
+            
+            </summary>
+            <param name="name">The name of the view</param>
+            <returns>The UserControl belonging to the view</returns>
+        </member>
+        <member name="M:Spofity.Form1.AddFeed(System.String,System.String,System.String,System.Int32,System.Drawing.Point,System.String,System.EventHandler)">
+            <summary>
+            Adds dynamic set of controls that are bound to a particular feed. They will be removed when updating the feed.
+            </summary>
+            <param name="Section">The section of the SpotiApp the feed will be applied to</param>
+            <param name="elementType">Type of elements that can be created.</param>
+            <param name="URI">The URI to the feed (must be RSS 2.0)</param>
+            <param name="limit">The limit of amount elements to add</param>
+            <param name="Location">Location of the feed</param>
+            <param name="nspace">Space of the feed</param>
+            <param name="Enter">Event that occur when the user activates the feed elements,</param>
+        </member>
+        <member name="F:Spofity.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Spofity.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Spofity.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:Spofity.Form1.Entries">
+            <summary>
+            Returns a list of playlist entries in the current view
+            </summary>
+        </member>
+        <member name="P:Spofity.Form1.ActiveUserControl">
+            <summary>
+            Returns the UserControl for the current selected view
+            </summary>
+        </member>
+        <member name="P:Spofity.Form1.NewElements">
+            <summary>
+            Elements that are queued for be placed at runtime is stored in this box. Remote content should always be fetched at a separe
+            thread and according elements be placed in this stack.
+            </summary>
+        </member>
+        <member name="F:Spofity.spotifyPanel.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Spofity.spotifyPanel.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Spofity.spotifyPanel.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Spofity.PlatformInvokeGDI32">
+            <summary>
+            This class shall keep the GDI32 APIs used in our program.
+            </summary>
+        </member>
+        <member name="T:Spofity.PlatformInvokeUSER32">
+            <summary>
+            This class shall keep the User32 APIs used in our program.
+            </summary>
+        </member>
+        <member name="T:Spofity.CaptureScreen">
+            <summary>
+            This class shall keep all the functionality for capturing the desktop.
+            </summary>
+        </member>
+        <member name="F:Spofity.Program.URI">
+            <summary>
+            The main entry point for the application.
+            </summary>
+            
+        </member>
+        <member name="F:Spofity.page.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Spofity.page.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Spofity.page.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Spofity.spotifyButton.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Spofity.spotifyButton.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Spofity.spotifyButton.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Spofity.spotiImage.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Spofity.spotiImage.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Spofity.spotiImage.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Spofity.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Spofity.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Spofity.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
